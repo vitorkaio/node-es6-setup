@@ -1,0 +1,17 @@
+{
+  "name": "node-es6-setup",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/vitorkaio/node-es6-setup.git",
+  "author": "vitorkaio <vitorcaiodepaula@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.15.1",
+    "rxjs": "^5.5.6"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  }
+}
